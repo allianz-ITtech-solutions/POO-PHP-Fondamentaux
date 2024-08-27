@@ -16,3 +16,6 @@
 - [Appel d'une méthode de la classe Mère dans la classe Fille](#parent::methodName)
 
 > NB : En PHP, le mot-clé this est obligatoire dans la classe.
+
+## Pour exécuter un projet PHP, on peut utiliser le serveur interne de PHP.
+> On tape ceci : php -S localhost:8000 index.php
