@@ -37,12 +37,15 @@
                                     <th scope="col">Nom et Prenom</th>
 =                                </tr>
                             </thead>
-                            <tbody>
-                                <tr class="">
-                                    <td scope="row">R1C1</td>
-                                    <td>R1C2</td>
-                                </tr>
-                            </tbody>
+                            <!-- Récupération de la liste des personnes et affichage des données -->
+                            <?php foreach ($personnes as $value): ?>
+                                <tbody>
+                                    <tr class="">
+                                        <td scope="row"><?=$value->getId()?></td>
+                                        <td scope="row"><?=$value->getNomComplet()?></td>
+                                    </tr>
+                                </tbody>
+                            <?php endforeach ?>
                         </table>
                     </div>
                     
