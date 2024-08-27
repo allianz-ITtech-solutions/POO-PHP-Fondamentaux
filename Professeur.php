@@ -29,7 +29,7 @@ class Professeur extends Personne{
     public function __toString()
     {
         // On rappelle le constructeur du parent (Personne) + les attributs de cette classe fille à ajouter (Professeur)
-        return parent::__toString() . "Grade : " .$this->grade;
+        return parent::__toString() . " Grade : " .$this->grade;
     }
 
 }
