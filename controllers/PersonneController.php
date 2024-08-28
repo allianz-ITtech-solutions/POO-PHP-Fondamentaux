@@ -5,8 +5,8 @@
 
 // En Java, pour utiliser une classe il faut l'importer.
 // En PHP, on parle d'Inclusion. Il faut inclure la classe
-require_once "Personne.php";
-require_once "Professeur.php"; // On inclut d'abord la classe Mère avant d'inclure Professeur qui est la fille
+require_once "./models/Personne.php";
+require_once "./models/Professeur.php"; // On inclut d'abord la classe Mère avant d'inclure Professeur qui est la fille
 
 
 // 1 - Recoit et traite la request http (GET | POST)
@@ -38,7 +38,7 @@ class PersonneController{
 
         // On charge la vue ici. En fesant cela, c'est comme si on fusionnait le fichier présent et liste.html.php
         // Par conséquent, le contenu de ce fichier esr accessible dans liste.html.php
-        require_once "liste.html.php";
+        require_once "./views/liste.html.php";
     }
 }
 
