@@ -15,7 +15,9 @@
 - [Accéder aux attributs d'une classe mère dans une classe fille avec le mot-clé 'protected']
 - [Appel d'une méthode de la classe Mère dans la classe Fille](#parent::methodName)
 
-> NB : En PHP, le mot-clé this est obligatoire dans la classe.
+> NB1 : En PHP, le mot-clé this est obligatoire dans la classe.
 
 ## Pour exécuter un projet PHP, on peut utiliser le serveur interne de PHP.
 > On tape ceci : php -S localhost:8000 index.php
+
+> NB2 : Comme tout est chargé dans index, à chaque importation on doit s'imaginer qu'on est dans index
